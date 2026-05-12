@@ -6,13 +6,4 @@ export default defineConfig({
       entry: "server",
     },
   },
-
-  vite: {
-    preview: {
-      host: "0.0.0.0",
-      allowedHosts: [
-        "diya-anjana-portfolio.onrender.com",
-      ],
-    },
-  },
 });
